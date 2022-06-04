@@ -1,1 +1,1 @@
-# d-rpg
+# Discord RPG
