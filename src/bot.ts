@@ -14,6 +14,7 @@ client.once('ready', () => {
 
 client.once('interactionCreate', async (interaction) => {
   if (!interaction.isCommand()) {
+    console.log(`Error: Not a command ${interaction.id}`);
     return;
   }
   const { commandName } = interaction;
