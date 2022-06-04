@@ -1,1 +1,1 @@
-console.log("Hello D-RPG!");
+import './bot';
